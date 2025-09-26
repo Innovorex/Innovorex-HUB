@@ -1,0 +1,18 @@
+{
+  "doctype": "Room",
+  "timestamp": "2025-09-22T05:23:22.496Z",
+  "count": 1,
+  "data": [
+    {
+      "name": "HTL-ROOM-2025-00001",
+      "owner": "Administrator",
+      "creation": "2025-09-18 17:54:29.724493",
+      "modified": "2025-09-18 17:54:29.724493",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "room_name": "Room 1",
+      "doctype": "Room"
+    }
+  ]
+}

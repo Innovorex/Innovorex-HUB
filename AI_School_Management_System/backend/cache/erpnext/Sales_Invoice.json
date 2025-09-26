@@ -1,0 +1,22 @@
+{
+  "doctype": "Sales Invoice",
+  "timestamp": "2025-09-22T05:23:37.982Z",
+  "count": 5,
+  "data": [
+    {
+      "name": "ACC-SINV-2025-00017"
+    },
+    {
+      "name": "ACC-SINV-2025-00018"
+    },
+    {
+      "name": "ACC-SINV-2025-00019"
+    },
+    {
+      "name": "ACC-SINV-2025-00020"
+    },
+    {
+      "name": "ACC-SINV-2025-00021"
+    }
+  ]
+}

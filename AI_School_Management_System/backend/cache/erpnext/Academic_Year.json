@@ -1,0 +1,20 @@
+{
+  "doctype": "Academic Year",
+  "timestamp": "2025-09-22T05:23:20.061Z",
+  "count": 1,
+  "data": [
+    {
+      "name": "2025-2026",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:42:23.831999",
+      "modified": "2025-09-18 15:42:23.831999",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 1,
+      "academic_year_name": "2025-2026",
+      "year_start_date": "2025-06-05",
+      "year_end_date": "2026-05-22",
+      "doctype": "Academic Year"
+    }
+  ]
+}

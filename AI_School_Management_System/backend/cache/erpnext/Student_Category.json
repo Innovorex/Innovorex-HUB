@@ -1,0 +1,29 @@
+{
+  "doctype": "Student Category",
+  "timestamp": "2025-09-22T05:23:16.326Z",
+  "count": 2,
+  "data": [
+    {
+      "name": "Regular",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:58:24.034667",
+      "modified": "2025-09-18 15:58:24.034667",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 3,
+      "category": "Regular",
+      "doctype": "Student Category"
+    },
+    {
+      "name": "Scholarship",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:58:34.164737",
+      "modified": "2025-09-18 15:58:34.164737",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "category": "Scholarship",
+      "doctype": "Student Category"
+    }
+  ]
+}

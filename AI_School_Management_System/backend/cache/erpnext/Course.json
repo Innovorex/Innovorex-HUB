@@ -1,0 +1,25 @@
+{
+  "doctype": "Course",
+  "timestamp": "2025-09-22T05:23:25.995Z",
+  "count": 6,
+  "data": [
+    {
+      "name": "Maths"
+    },
+    {
+      "name": "Science"
+    },
+    {
+      "name": "Social"
+    },
+    {
+      "name": "English"
+    },
+    {
+      "name": "Hindi"
+    },
+    {
+      "name": "Telugu"
+    }
+  ]
+}

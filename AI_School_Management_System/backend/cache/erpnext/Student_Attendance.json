@@ -1,0 +1,58 @@
+{
+  "doctype": "Student Attendance",
+  "timestamp": "2025-09-22T05:23:40.346Z",
+  "count": 3,
+  "data": [
+    {
+      "name": "EDU-ATT-2025-00119",
+      "owner": "Administrator",
+      "creation": "2025-09-18 16:13:18.059435",
+      "modified": "2025-09-18 16:13:18.085483",
+      "modified_by": "Administrator",
+      "docstatus": 1,
+      "idx": 0,
+      "naming_series": "EDU-ATT-.YYYY.-",
+      "student": "EDU-STU-2025-00031",
+      "student_name": "Keerthana Bangla",
+      "student_group": "10 A/2025",
+      "date": "2025-09-18",
+      "status": "Present",
+      "link_nvfk": "10 STD",
+      "doctype": "Student Attendance"
+    },
+    {
+      "name": "EDU-ATT-2025-00120",
+      "owner": "Administrator",
+      "creation": "2025-09-18 16:13:18.113958",
+      "modified": "2025-09-18 16:13:18.120336",
+      "modified_by": "Administrator",
+      "docstatus": 1,
+      "idx": 0,
+      "naming_series": "EDU-ATT-.YYYY.-",
+      "student": "EDU-STU-2025-00033",
+      "student_name": "Sai Mahesh Bhogela",
+      "student_group": "10 A/2025",
+      "date": "2025-09-18",
+      "status": "Present",
+      "link_nvfk": "10 STD",
+      "doctype": "Student Attendance"
+    },
+    {
+      "name": "EDU-ATT-2025-00121",
+      "owner": "Administrator",
+      "creation": "2025-09-18 16:13:18.128747",
+      "modified": "2025-09-18 16:13:57.427247",
+      "modified_by": "Administrator",
+      "docstatus": 1,
+      "idx": 0,
+      "naming_series": "EDU-ATT-.YYYY.-",
+      "student": "EDU-STU-2025-00029",
+      "student_name": "Sai Charan Makkuva",
+      "student_group": "10 A/2025",
+      "date": "2025-09-18",
+      "status": "Absent",
+      "link_nvfk": "10 STD",
+      "doctype": "Student Attendance"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "doctype": "Fee Category",
+  "timestamp": "2025-09-22T05:23:34.072Z",
+  "count": 4,
+  "data": [
+    {
+      "name": "Tuition",
+      "owner": "Administrator",
+      "creation": "2025-09-18 18:10:18.045878",
+      "modified": "2025-09-18 18:10:18.307086",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 2,
+      "category_name": "Tuition",
+      "item": "Tuition",
+      "doctype": "Fee Category",
+      "item_defaults": []
+    },
+    {
+      "name": "Transport",
+      "owner": "Administrator",
+      "creation": "2025-09-18 18:10:36.361159",
+      "modified": "2025-09-18 18:10:36.427379",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "category_name": "Transport",
+      "item": "Transport",
+      "doctype": "Fee Category",
+      "item_defaults": []
+    },
+    {
+      "name": "Stationary",
+      "owner": "Administrator",
+      "creation": "2025-09-18 18:10:51.469979",
+      "modified": "2025-09-18 18:10:51.524258",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "category_name": "Stationary",
+      "item": "Stationary",
+      "doctype": "Fee Category",
+      "item_defaults": []
+    },
+    {
+      "name": "Books",
+      "owner": "Administrator",
+      "creation": "2025-09-18 18:11:28.515609",
+      "modified": "2025-09-18 18:11:28.554202",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 2,
+      "category_name": "Books",
+      "item": "Books",
+      "doctype": "Fee Category",
+      "item_defaults": []
+    }
+  ]
+}

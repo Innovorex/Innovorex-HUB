@@ -1,0 +1,2 @@
+- portal is portal.innovorex.co.in
+- frontend is portal.innovorex.co.in, backend is server.innovorex.co.in

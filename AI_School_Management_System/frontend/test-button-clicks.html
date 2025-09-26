@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Program Management Buttons</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Testing Program Management Buttons</h1>
+
+    <div id="status"></div>
+
+    <button onclick="testLogin()">1. Login as Admin</button>
+    <button onclick="testGetPrograms()">2. Get Programs</button>
+    <button onclick="testAddProgram()">3. Add Program</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        const API_URL = 'http://localhost:7001/api';
+        let authToken = '';
+        const output = document.getElementById('output');
+        const status = document.getElementById('status');
+
+        async function testLogin() {
+            try {
+                status.textContent = 'Logging in...';
+                const response = await axios.post(`${API_URL}/auth/login`, {
+                    email: 'admin@demo.com',
+                    password: 'password123',
+                    role: 'admin'
+                });
+
+                authToken = response.data.token;
+                output.textContent = 'Login successful!\nToken: ' + authToken.substring(0, 50) + '...';
+                status.textContent = 'Logged in successfully';
+            } catch (error) {
+                output.textContent = 'Login failed: ' + error.message;
+                status.textContent = 'Login failed';
+            }
+        }
+
+        async function testGetPrograms() {
+            try {
+                status.textContent = 'Fetching programs...';
+                const response = await axios.get(`${API_URL}/programs`, {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                output.textContent = JSON.stringify(response.data, null, 2);
+                status.textContent = `Found ${response.data.length} programs`;
+            } catch (error) {
+                output.textContent = 'Get programs failed: ' + error.message;
+                status.textContent = 'Failed to get programs';
+            }
+        }
+
+        async function testAddProgram() {
+            try {
+                status.textContent = 'Adding program...';
+                const newProgram = {
+                    program_name: 'Test Program ' + Date.now(),
+                    program_code: 'TST' + Math.floor(Math.random() * 1000),
+                    program_abbreviation: 'TST',
+                    department: 'Test Department',
+                    description: 'Test program created via browser',
+                    is_published: true,
+                    is_featured: false
+                };
+
+                const response = await axios.post(`${API_URL}/programs/create`, newProgram, {
+                    headers: { 'Authorization': `Bearer ${authToken}` }
+                });
+
+                output.textContent = 'Program created:\n' + JSON.stringify(response.data, null, 2);
+                status.textContent = 'Program added successfully';
+            } catch (error) {
+                output.textContent = 'Add program failed: ' + error.message;
+                status.textContent = 'Failed to add program';
+            }
+        }
+
+        // Auto-login on load
+        window.onload = () => {
+            status.textContent = 'Click buttons to test API...';
+        };
+    </script>
+</body>
+</html>

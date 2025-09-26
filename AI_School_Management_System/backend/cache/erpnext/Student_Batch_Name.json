@@ -1,0 +1,40 @@
+{
+  "doctype": "Student Batch Name",
+  "timestamp": "2025-09-22T05:23:14.993Z",
+  "count": 3,
+  "data": [
+    {
+      "name": "A",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:57:51.290417",
+      "modified": "2025-09-18 15:57:51.290417",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "batch_name": "A",
+      "doctype": "Student Batch Name"
+    },
+    {
+      "name": "B",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:58:02.637776",
+      "modified": "2025-09-18 15:58:02.637776",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "batch_name": "B",
+      "doctype": "Student Batch Name"
+    },
+    {
+      "name": "C",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:58:07.501273",
+      "modified": "2025-09-18 15:58:07.501273",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "batch_name": "C",
+      "doctype": "Student Batch Name"
+    }
+  ]
+}

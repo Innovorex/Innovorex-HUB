@@ -1,0 +1,45 @@
+{
+  "doctype": "Guardian",
+  "timestamp": "2025-09-22T05:23:17.432Z",
+  "count": 1,
+  "data": [
+    {
+      "name": "EDU-GRD-2025-00001",
+      "owner": "Administrator",
+      "creation": "2025-09-18 16:15:10.786186",
+      "modified": "2025-09-19 12:26:12.551902",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "guardian_name": "Guardian - Test",
+      "email_address": "Surajvarma@innovorex.co.in",
+      "user": "surajvarma@innovorex.co.in",
+      "doctype": "Guardian",
+      "students": [
+        {
+          "docstatus": 0,
+          "idx": 1,
+          "student": "EDU-STU-2025-00029",
+          "student_name": "Sai Charan Makkuva",
+          "parent": "EDU-GRD-2025-00001",
+          "parentfield": "students",
+          "parenttype": "Guardian",
+          "doctype": "Guardian Student",
+          "__islocal": 1
+        },
+        {
+          "docstatus": 0,
+          "idx": 2,
+          "student": "EDU-STU-2025-00033",
+          "student_name": "Sai Mahesh Bhogela",
+          "parent": "EDU-GRD-2025-00001",
+          "parentfield": "students",
+          "parenttype": "Guardian",
+          "doctype": "Guardian Student",
+          "__islocal": 1
+        }
+      ],
+      "interests": []
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "doctype": "Instructor",
+  "timestamp": "2025-09-22T05:23:24.449Z",
+  "count": 4,
+  "data": [
+    {
+      "name": "EDU-INS-2025-00001",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:45:02.053140",
+      "modified": "2025-09-18 15:48:38.537864",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 1,
+      "instructor_name": "English Instructor",
+      "gender": "Female",
+      "custom_course": "English",
+      "status": "Active",
+      "naming_series": "EDU-INS-.YYYY.-",
+      "department": "CBSE - SRS",
+      "doctype": "Instructor",
+      "instructor_log": [
+        {
+          "name": "77h7fih92v",
+          "owner": "Administrator",
+          "creation": "2025-09-18 15:45:02.053140",
+          "modified": "2025-09-18 15:48:38.537864",
+          "modified_by": "Administrator",
+          "docstatus": 0,
+          "idx": 1,
+          "academic_year": "2025-2026",
+          "academic_term": "2025-2026 (Term 1)",
+          "program": "10 STD",
+          "course": "English",
+          "parent": "EDU-INS-2025-00001",
+          "parentfield": "instructor_log",
+          "parenttype": "Instructor",
+          "doctype": "Instructor Log"
+        }
+      ]
+    },
+    {
+      "name": "EDU-INS-2025-00003",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:49:25.371056",
+      "modified": "2025-09-18 15:49:25.371056",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "instructor_name": "Science Instructor",
+      "gender": "Female",
+      "custom_course": "Science",
+      "status": "Active",
+      "naming_series": "EDU-INS-.YYYY.-",
+      "department": "CBSE - SRS",
+      "doctype": "Instructor",
+      "instructor_log": [
+        {
+          "name": "7m5tu27jhj",
+          "owner": "Administrator",
+          "creation": "2025-09-18 15:49:25.371056",
+          "modified": "2025-09-18 15:49:25.371056",
+          "modified_by": "Administrator",
+          "docstatus": 0,
+          "idx": 1,
+          "academic_year": "2025-2026",
+          "academic_term": "2025-2026 (Term 1)",
+          "program": "10 STD",
+          "course": "Science",
+          "parent": "EDU-INS-2025-00003",
+          "parentfield": "instructor_log",
+          "parenttype": "Instructor",
+          "doctype": "Instructor Log"
+        }
+      ]
+    },
+    {
+      "name": "EDU-INS-2025-00002",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:48:22.605227",
+      "modified": "2025-09-19 17:57:39.216584",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "instructor_name": "Maths  Instructor",
+      "employee": "HR-EMP-00011",
+      "gender": "Male",
+      "custom_course": "Maths",
+      "status": "Active",
+      "naming_series": "EDU-INS-.YYYY.-",
+      "department": "CBSE - SRS",
+      "doctype": "Instructor",
+      "instructor_log": [
+        {
+          "name": "72ibl6ri0t",
+          "owner": "Administrator",
+          "creation": "2025-09-18 15:48:22.605227",
+          "modified": "2025-09-19 17:57:39.216584",
+          "modified_by": "Administrator",
+          "docstatus": 0,
+          "idx": 1,
+          "academic_year": "2025-2026",
+          "academic_term": "2025-2026 (Term 1)",
+          "program": "10 STD",
+          "course": "Maths",
+          "parent": "EDU-INS-2025-00002",
+          "parentfield": "instructor_log",
+          "parenttype": "Instructor",
+          "doctype": "Instructor Log"
+        }
+      ]
+    },
+    {
+      "name": "EDU-INS-2025-00004",
+      "owner": "Administrator",
+      "creation": "2025-09-20 09:16:49.915351",
+      "modified": "2025-09-20 09:16:49.915351",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "instructor_name": "Siva Bhogela",
+      "gender": "Male",
+      "status": "Active",
+      "naming_series": "EDU-INS-.YYYY.-",
+      "department": "CBSE - SRS",
+      "doctype": "Instructor",
+      "instructor_log": []
+    }
+  ]
+}

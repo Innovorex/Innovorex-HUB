@@ -1,0 +1,37 @@
+{
+  "doctype": "Academic Term",
+  "timestamp": "2025-09-22T05:23:21.444Z",
+  "count": 2,
+  "data": [
+    {
+      "name": "2025-2026 (Term 1)",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:42:55.141170",
+      "modified": "2025-09-18 15:42:55.141170",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 5,
+      "academic_year": "2025-2026",
+      "term_name": "Term 1",
+      "term_start_date": "2025-06-05",
+      "term_end_date": "2025-09-12",
+      "title": "2025-2026 (Term 1)",
+      "doctype": "Academic Term"
+    },
+    {
+      "name": "2025-2026 (Term 2)",
+      "owner": "Administrator",
+      "creation": "2025-09-18 15:58:51.827457",
+      "modified": "2025-09-18 15:58:51.827457",
+      "modified_by": "Administrator",
+      "docstatus": 0,
+      "idx": 0,
+      "academic_year": "2025-2026",
+      "term_name": "2025-2026 (Term II)",
+      "term_start_date": "2025-10-01",
+      "term_end_date": "2025-12-24",
+      "title": "2025-2026 (Term 2)",
+      "doctype": "Academic Term"
+    }
+  ]
+}

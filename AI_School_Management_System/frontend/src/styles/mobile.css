@@ -1,0 +1,119 @@
+/* Mobile-specific optimizations for AI School Management System */
+
+/* Hide scrollbars on mobile for cleaner UX */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+/* Improved touch targets for better mobile accessibility */
+.touch-manipulation {
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Better mobile tap highlights */
+.mobile-tap-highlight {
+  -webkit-tap-highlight-color: rgba(59, 130, 246, 0.2);
+}
+
+/* Prevent mobile zoom on form inputs */
+.prevent-zoom {
+  font-size: 16px !important;
+  transform-origin: left top;
+}
+
+/* Mobile-friendly animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* iOS safe area support */
+.safe-area-padding {
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Better mobile keyboard handling */
+.mobile-keyboard-padding {
+  padding-bottom: calc(env(keyboard-inset-height, 0px) + 1rem);
+}
+
+/* Mobile-optimized grid layouts */
+@media (max-width: 640px) {
+  .mobile-grid-stack {
+    grid-template-columns: 1fr !important;
+  }
+
+  .mobile-full-width {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* Improved mobile modal/overlay behavior */
+.mobile-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+/* Better mobile text sizing */
+@media (max-width: 480px) {
+  .mobile-text-responsive {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+
+  .mobile-heading-responsive {
+    font-size: 1.125rem !important;
+    line-height: 1.5rem !important;
+  }
+}
+
+/* Mobile-friendly card layouts */
+@media (max-width: 768px) {
+  .mobile-card-padding {
+    padding: 0.75rem !important;
+  }
+
+  .mobile-card-spacing {
+    margin-bottom: 0.75rem !important;
+  }
+}
+
+/* Improved mobile focus states */
+.mobile-focus:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Mobile-optimized horizontal scroll containers */
+.mobile-horizontal-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x mandatory;
+}
+
+.mobile-horizontal-scroll > * {
+  scroll-snap-align: start;
+}
